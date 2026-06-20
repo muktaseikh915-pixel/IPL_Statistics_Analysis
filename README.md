@@ -1,115 +1,146 @@
-🏦 Banking Analytics SQL Project
-📌 Project Overview
-This project focuses on analyzing banking data using SQL to generate business insights related to customer segmentation, deposits, loans, credit risk, card usage, and executive-level KPIs.
-The objective is to demonstrate practical SQL skills including:
-Joins
-Aggregate Functions
-Subqueries
-Common Table Expressions (CTEs)
-Window Functions
-CASE Statements
-Business Intelligence Reporting
-📊 Dataset Tables
-Customers
-Contains customer demographic and credit information.
-Accounts
-Stores account details, balances, and account opening dates.
-Loans
-Contains loan amounts and borrower information.
-Cards
-Stores customer card details and card types.
-🛠️ SQL Concepts Used
-SELECT Statements
-WHERE Clause
-GROUP BY
-ORDER BY
-CASE WHEN
-Aggregate Functions
-SUM()
-AVG()
-COUNT()
-Subqueries
-Common Table Expressions (CTE)
-Window Functions
-ROW_NUMBER()
-RANK()
-DENSE_RANK()
-NTILE()
-PERCENT_RANK()
-Joins
-📈 Key Business Analyses
-1. Customer Segmentation
-Classified customers into:
-VIP
-Premium
-Regular
-Basic
-Based on account balance.
-2. Above Average Balance Customers
-Identified customers holding balances higher than the bank average.
-3. Total Balance by Customer
-Calculated total deposits across all accounts for each customer.
-4. Customer Ranking
-Ranked customers using:
-ROW_NUMBER()
-RANK()
-DENSE_RANK()
-5. Customer Decile Analysis
-Divided customers into 10 groups using NTILE().
-6. Running Deposit Growth
-Calculated cumulative deposit totals over time.
-7. Credit Score Analysis
-Segmented customers into:
-Excellent
-Good
-Fair
-Poor
-Based on credit score.
-8. Loan Risk Analysis
-Categorized borrowers into:
-Low Risk
-Medium Risk
-High Risk
-Using customer credit scores.
-9. Geographic Performance Analysis
-Analyzed:
-Top cities by deposits
-City-wise average credit scores
-10. Richest Customers Analysis
-Identified the top 20 customers by total account balance.
-11. Card Portfolio Analysis
-Evaluated card type distribution across customers.
-12. Executive KPI Dashboard
-Generated key metrics:
-Total Customers
-Total Accounts
-Total Loans
-Total Deposits
-Average Credit Score
-13. Deposit-to-Loan Ratio
-Measured liquidity and lending exposure.
-14. Customer Value Segmentation
-Classified customers as:
-Elite
-High Value
-Medium Value
-Low Value
-Based on total relationship value.
-💡 Business Insights Generated
-Identified high-value customers for premium banking services.
-Evaluated customer credit quality and loan risk.
-Measured geographic market performance.
-Assessed banking liquidity using deposit-to-loan ratio.
-Ranked customers for targeted marketing campaigns.
-Created executive-level KPIs for decision-making.
-🚀 Project Outcomes
-This project demonstrates how SQL can be used to:
-Perform banking data analysis
-Generate actionable business insights
-Support customer segmentation strategies
-Assess loan portfolio risk
-Build executive reporting solutions
-👨‍💻 Author
+IPL Statistics Analysis
+
+Project Overview
+
+This project focuses on performing Statistical Analysis and Exploratory Data Analysis (EDA) on Indian Premier League (IPL) match and ball-by-ball datasets. The objective is to uncover meaningful insights related to player performance, team success, scoring patterns, toss impact, venue trends, and overall match outcomes.
+
+Using Python and data analysis libraries, the project applies descriptive statistics, visualization techniques, and correlation analysis to better understand IPL data and identify key performance indicators.
+
+---
+
+Objectives
+
+- Analyze IPL match and ball-by-ball datasets.
+- Perform descriptive statistical analysis.
+- Identify top-performing batsmen and bowlers.
+- Evaluate team performance across seasons.
+- Measure the impact of toss decisions on match outcomes.
+- Explore venue-wise trends and match distribution.
+- Detect outliers and scoring patterns.
+- Generate meaningful insights using data visualization.
+
+---
+
+Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+Dataset Information
+
+IPL Matches Dataset
+
+Contains match-level information such as:
+
+- Match ID
+- Date
+- Venue
+- Teams
+- Toss Winner
+- Toss Decision
+- Match Winner
+- Player of the Match
+
+IPL Ball-by-Ball Dataset
+
+Contains ball-level information such as:
+
+- Over and Ball Number
+- Batsman
+- Bowler
+- Runs Scored
+- Extras
+- Wickets
+- Batting Team
+- Bowling Team
+
+---
+
+Analysis Performed
+
+Data Exploration
+
+- Dataset Overview
+- Shape Analysis
+- Data Types Inspection
+- Missing Value Analysis
+
+Statistical Analysis
+
+- Mean
+- Median
+- Mode
+- Variance
+- Standard Deviation
+
+Player Analysis
+
+- Top 10 Run Scorers
+- Top 10 Wicket Takers
+- Most Player of the Match Awards
+
+Team Analysis
+
+- Team Win Analysis
+- Team Participation Analysis
+
+Match Analysis
+
+- Toss Impact Analysis
+- Toss Decision Distribution
+- Venue Analysis
+- Season-wise Match Analysis
+
+Advanced Analysis
+
+- Correlation Matrix
+- Outlier Detection
+- Run Distribution Analysis
+
+---
+
+Key Findings
+
+- Most deliveries resulted in 0–1 runs, indicating the importance of singles and dot balls in IPL matches.
+- Top batsmen contributed significantly to their teams' overall performance.
+- Leading bowlers consistently influenced match outcomes through wicket-taking ability.
+- Certain franchises maintained higher win counts across multiple seasons.
+- Toss-winning teams gained a competitive advantage in several matches.
+- A limited number of venues hosted the majority of IPL matches.
+- Correlation analysis highlighted relationships among numerical match variables.
+- Outlier detection revealed rare but impactful high-scoring deliveries.
+
+---
+
+Visualizations Included
+
+- Histogram of Runs Distribution
+- Top 10 Batsmen Bar Chart
+- Top 10 Bowlers Bar Chart
+- Team Wins Analysis Chart
+- Player of the Match Analysis
+- Venue Analysis Chart
+- Toss Decision Pie Chart
+- Correlation Heatmap
+- Outlier Detection Boxplot
+- Season-wise Match Trend Analysis
+
+---
+
+Conclusion
+
+This project demonstrates the application of statistical techniques and exploratory data analysis on sports datasets. By analyzing IPL match and ball-by-ball data, valuable insights were generated regarding player performance, team strategies, scoring behavior, toss influence, and venue patterns.
+
+The project showcases practical skills in data cleaning, data visualization, statistical analysis, and insight generation using Python, making it a strong addition to a Data Analytics portfolio.
+
+---
+
+Author
+
 Mukto Seikh
-SQL | Data Analytics | Business Intelligence |
-⭐ If you found this project useful, consider giving it a star on GitHub!
